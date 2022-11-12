@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: black;
+}
+
+.grid{
+    width:100%;
+    height: 100%;
+    display: grid;
+   /* background-color: blueviolet; */
+}
+
+/* navbar */
+
+.nav{
+    display:flex;
+ /*   flex-flow: nowrap;    */
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+.logo{
+    flex-grow: 5;
+    padding-left: 11%;
+    padding-right: 5%;
+}
+.nav-link{
+    flex-grow: 4;
+    font-size: 14px;
+    
+}
+.nav-link a{
+    padding-right: 10px;
+    font-weight: 400;
+}
+a:hover{
+    color: grey;
+    transition-duration: 300ms;
+}
+
+/* hero section */
+
+.hero{ 
+    width: 100%;
+    height: 90vh;
+    background-image: url("images/Light_header.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.overlay{
+    margin-left: 10%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+/* down */
+.down{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* margin-left: 140px; 
+    
+    */
+    margin-top: 148px;
+}
+
+.down div{
+    padding-right: 34px;
+    letter-spacing: 2px;
+    color: rgb(39, 39, 39);  
+}
+
+.down p{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.footer-social{
+    padding: 7px;
+    opacity: .5;
+}
+.footer-down{
+    display: flex;
+    justify-content: center;
+    padding-bottom:100px;
+    font-weight: 350;
+    width: 100%;
+    height: 138px;
+}
+.footer-down ul{
+    list-style-type: none;
+    padding-top:46px ;
+}
+#footer-list p{
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.footer-down li{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    text-decoration: underline;
+    text-underline-offset: .2rem;
+    text-decoration-color: black;
+    letter-spacing: 10px;
+}
